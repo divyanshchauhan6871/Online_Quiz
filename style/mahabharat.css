@@ -1,0 +1,70 @@
+.option:hover {
+    background-color: rgb(58, 247, 247);
+    color: black;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.bg-general {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(../photo/mahabharat_banner.jpg);
+    z-index: 0.5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-quiz {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../photo/mahabharat_quiz.jpg);
+    z-index: 0.5;
+    color: white;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.answersssss {
+    color: white;
+    font-size: medium;
+}
+
+.answersssss:hover {
+    color: black;
+    font-size: medium;
+    background-color: aqua;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:424px) {
+    .questions {
+        font-size: medium;
+    }
+
+    .option {
+        font-size: small;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:768px) {
+    .questions {
+        font-size: large;
+    }
+
+    .option {
+        font-size: medium;
+    }
+}
+
+@media screen and (min-width:769px) {
+    .questions {
+        font-size: x-large;
+    }
+
+    .option {
+        font-size: large;
+    }
+}
+
+
+#more {display: none;}
